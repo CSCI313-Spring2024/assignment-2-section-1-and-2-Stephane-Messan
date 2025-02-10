@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+
+
+    <style>
+        img {
+            width: 50%;
+            height: auto;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">My Website</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    <header>
+
+    <main>
+        <section id="home" class="mt-5">
+            <div class="container">
+                <h1>Welcome to My Personal Website</h1>
+                <img src="images/Graduation Photo.jpg" alt="Profile Image" class="img-fluid rounded-circle">
+                <p>I am Stephane MESSAN, I graduated last year from NDSCS and now I am enrolled at NDSU for Spring 2025 in the Major of Software Engineering.</p>
+                <address>
+                    4330 9th Avenue Circle South, Fargo, ND, 58078
+                </address>
+            </div>
+        </section>
+        <section id="about" class="mt-5">
+            <div class="container">
+                <h2>About Me</h2>
+                <article>
+                    <p>I am in my first year of school at North Dakota State University (NDSU). My Name is Stephane MESSAN and I came from West Africa in the Country name "TOGO". I am an oldest of 3 childrens; two boys and one girl. My Goal is to become a Software Engineering. I am planning to have my P.H.D in the field of Software Engineering and I hope to reach that in 4 years.</p>
+                    <p>My favorite hobby is to play Soccer and Watch all kind of Sports games. I also like reading a book and e-book. I listen to music also and would like to play piano.</p>
+                    <ol>
+                        <li>Soccer</li>
+                        <li>Game</li>
+                        <li>Reading</li>
+                        <li>Piano</li>
+                    </ol>
+                </article>
+            </div>
+        </section>
+
+        <section id="portfolio" class="mt-5">
+            <div class="container">
+                <h2>Portfolio/Projects</h2>
+                <p>Developed a Java-based ECCA (Enterprise Customer Care and Analytics) Global Complaint Management.
+                        Designed and implemented a user-friendly graphical user interface using Java Swing or JavaFX for the ECCA application.
+                        Developed functionality for data entry, allowing users to manually input case records with relevant details.
+                        Implemented a bulk record upload feature that enables users to import case data from Excel files.
+                        Created a filtering mechanism that allows users to filter case data based on multiple criteria such as product, business unit, date ranges, and case identifier.
+                        Displayed the filtered case data in a tabular format, presenting relevant columns for easy analysis.
+                        Generated a bar chart visualization of the case data based on selected business units and a chosen time period (monthly, quarterly, or yearly).
+                        Provided data export capabilities, allowing users to export filtered case data in Excel, CSV, and PDF formats.
+                        Integrated the application with a file-based storage system for efficient storage and retrieval of case data (could be a SQL database or Access).
+                        Implemented user authentication to secure sensitive operations like adding new records or updating the data.                    
+                </p>
+                <h1>My Project</h1>
+                <ul>
+                    <li>ECCA Complaint Management System</li>
+                    <li>Online Book Store System</li>
+                    <li>Cemetery Archive Website</li>
+                </ul>
+                <h1>Favorite Website</h1>
+                <ul>
+                    <li><a href="https://getbootstrap.com">Bootstrap</a></li>
+                    <li><a href="https://W3schools.com">W3Schools</a></li>
+                    <li><a href="https://www.espn.com/">ESPN</a></li>
+                </ul>
+                <h1>Favorite Books</h1>
+                <ul>
+                    <li>It Ends With Us - COLLEEN HOOVER</li>
+                    <li>The Night Watchman - LOUISE ERDRICH</li>
+                    <li>Alfred's Basic Adult Piano Course</li>
+                </ul>
+                <video width="320" height="240" controls>
+                    <source src="Video/Background Video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
+
+        <section id="contact" class="mt-5 mb-5">
+            <div class="container">
+                <h2>Contact</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="schedule" class="mt-5 mb-5">
+            <div class="container">
+                <h2>Weekly Schedule</h2>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Day</th>
+                            <th>Activity</th>
+                            <th>Time</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Monday</td>
+                            <td>Class</td>
+                            <td>8:00 AM - 3:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Tuesday</td>
+                            <td>Class</td>
+                            <td>9:30 AM - 12:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Wednesday</td>
+                            <td>Class</td>
+                            <td>8:00 AM - 3:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Thursday</td>
+                            <td>Class</td>
+                            <td>9:30 AM - 12:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Friday</td>
+                            <td>Class</td>
+                            <td>8:00 PM - 3:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Saturday</td>
+                            <td>Work</td>
+                            <td>5:00 AM - 4:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Sunday</td>
+                            <td>Work</td>
+                            <td>5:AM - 4:00 PM</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-light text-center py-3">
+        <p>&copy; 2025 My Personal Website</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
